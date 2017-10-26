@@ -27,7 +27,7 @@ For the Deep Learning environment we are going to be using a CPU-based host (c4.
 - Click the 'Launch Instance' button.
 - From the Quick Start AMI selection, choose `Deep Learning AMI Amazon Linux Version 3.1_Sep2017` and press Select
 
-![Amazon Linux Deep Learning AMI](./images/DLAmzLinuxAMI.jpg "Amazon Linux Deep Learning AMI")
+![Amazon Linux Deep Learning AMI with Cuda 8](./images/Ami.png "Amazon Linux Deep Learning AMI with Cuda 8")
 
 - Select the c4.xlarge instance type if running the CPU instance type
 ![c4.xlarge instance](./images/c4.xlarge.jpg "c4.xlarge instance")
@@ -41,7 +41,7 @@ For the Deep Learning environment we are going to be using a CPU-based host (c4.
 
 **Step 2:** Setting up the instance
 
-During the workshop, you will be securely accessing the Jupyter notebook server on your host and will therefore need to map port `8888` (default Jupyter notebook port) to your local machine in order to connect via the browser. This is accomplished via the `ssh -L` command.
+During the session, you will be securely accessing the Jupyter notebook server on your host and will therefore need to map port `8888` (default Jupyter notebook port) to your local machine in order to connect via the browser. This is accomplished via the `ssh -L` command.
 
 1. Identify the instance and the public DNS / IP address associated with it.
 
