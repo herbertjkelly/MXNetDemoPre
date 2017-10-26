@@ -1,5 +1,4 @@
-# Preparation for Deep Learning practical session
-
+# Preparation for Deep Learning practical session.
 
 ## Contents
 1.  [Instructions](#instructions)
@@ -89,5 +88,5 @@ jupyter notebook
 ![Jupyter Notebook Chapter 1 - NDArray Code](./images/jupyterbrowserndarrycode.jpg "Jupyter Notebook Chapter 1 - NDArray Code")
 
 **Congratulations, you have just run your first MXnet code and your your EC2 environment is ready to go!**
-> Thanks to Steve Turner (https://github.com/spturner) for the original content.
+> Thanks to Steve Turner (https://github.com/spturner) for the original prep content.
 > Big thanks to Sunil Mallya (https://github.com/sunilmallya) for the original MXNet tutorial on Twitch.
