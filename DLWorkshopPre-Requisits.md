@@ -25,7 +25,7 @@ For the Deep Learning environment we are going to be using a CPU-based host (c4.
 - Select `eu-west-1` as the region
 - Choose EC2 from the list of services
 - Click the 'Launch Instance' button.
-- From the Quick Start AMI selection, choose `Deep Learning AMI Amazon Linux Version 3.1_Sep2017` and press Select
+- From the Quick Start AMI selection, choose `Deep Learning AMI CUDA 8 Amazon Linux Version - ami-999844e0` and press Select
 
 ![Amazon Linux Deep Learning AMI with Cuda 8](./images/Ami.png "Amazon Linux Deep Learning AMI with Cuda 8")
 
@@ -90,4 +90,4 @@ jupyter notebook
 ![Jupyter Notebook Chapter 1 - NDArray Code](./images/jupyterbrowserndarrycode.jpg "Jupyter Notebook Chapter 1 - NDArray Code")
 
 **Congratulations, you have just run your first MXnet code and your your EC2 environment is ready to go!**
-#### Thanks to Steve Turner (https://github.com/spturner) for the original content.
+##### Thanks to Steve Turner (https://github.com/spturner) for the original content.
