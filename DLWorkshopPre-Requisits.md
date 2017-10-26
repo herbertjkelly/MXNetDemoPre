@@ -53,6 +53,7 @@ ssh -L 8888:localhost:8888 -i <YOUR PRIVATE KEY> ec2-user@<YOUR INSTANCE ADDRESS
 3. Change to the MXNet directory, and clone the Gluon tutorials.
 ```
 cd ~/src/mxnet
+git clone https://github.com/zackchase/mxnet-the-straight-dope.git
 git clone https://github.com/herbertjkelly/MXNetDemoPre.git
 ```
 
