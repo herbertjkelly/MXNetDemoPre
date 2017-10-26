@@ -53,9 +53,10 @@ ssh -L 8888:localhost:8888 -i <YOUR PRIVATE KEY> ec2-user@<YOUR INSTANCE ADDRESS
 3. Change to the MXNet directory, and clone the Gluon tutorials.
 ```
 cd ~/src/mxnet
-git clone https://github.com/zackchase/mxnet-the-straight-dope.git
 git clone https://github.com/herbertjkelly/MXNetDemoPre.git
 ```
+
+#### Original ndarray content found here 'https://github.com/zackchase/mxnet-the-straight-dope.git'
 
 **Step 3:** GPU-only - install CUDA 8.0 support for MXNet.
 ```
@@ -79,7 +80,7 @@ jupyter notebook
 
 4. Verify MXNet is installed and working as expected:
 
-- Navigate to the `mxnet-the-straight-dope/chapter01_crashcourse` directory:
+- Navigate to the `mxnet_examples/` directory:
 ![Jupyter Notebook Chapter 1](./images/jupyterbrowserchap1.jpg "Jupyter Notebook Chapter 1")
 
 - Open the `ndarray.ipynb` notebook
@@ -88,4 +89,5 @@ jupyter notebook
 - Run the first two blocks of code by clicking on the cells and pressing 'Shift+Enter' on each. You should see the following output:
 ![Jupyter Notebook Chapter 1 - NDArray Code](./images/jupyterbrowserndarrycode.jpg "Jupyter Notebook Chapter 1 - NDArray Code")
 
-**Congratulations, your EC2 environment is ready to go!**
+**Congratulations, you have just run your first MXnet code and your your EC2 environment is ready to go!**
+#### Thanks to Steve Turner (https://github.com/spturner) for the original content.
