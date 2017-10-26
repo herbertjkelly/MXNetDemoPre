@@ -48,6 +48,7 @@ During the session, you will be securely accessing the Jupyter notebook server o
 2. Once the status checks have completed, open a terminal and ssh to host, replacing the host address and private key with your own.
 ```
 ssh -L 8888:localhost:8888 -i <YOUR PRIVATE KEY> ec2-user@<YOUR INSTANCE ADDRESS>
+example... ssh -L 8888:localhost:8888 -i Downloads/herberk_2017.pem ec2-user@ec2-34-251-58-119.eu-west-1.compute.amazonaws.com
 ```
 
 3. Change to the MXNet directory, and clone the Gluon tutorials.
@@ -56,7 +57,7 @@ cd ~/src/mxnet
 git clone https://github.com/herbertjkelly/MXNetDemoPre.git
 ```
 
-#### Original ndarray content found here 'https://github.com/zackchase/mxnet-the-straight-dope.git'
+##### Original ndarray content found here 'https://github.com/zackchase/mxnet-the-straight-dope.git'
 
 **Step 3:** GPU-only - install CUDA 8.0 support for MXNet.
 ```
