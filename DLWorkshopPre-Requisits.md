@@ -34,6 +34,8 @@ For the Deep Learning environment we are going to be using a CPU-based host (c4.
 - Alternatively select the p2.xlarge if running the GPU instance type
 ![p2.xlarge instance](./images/p2.xlarge.jpg "p2.xlarge instance")
 
+> GPU instances will perform better for our use case you can compare this if you are interested but for the worksop a GPU instance is recommended.
+
 - Click the 'Review & Launch' button at the bottom of the screen
 - Review the settings and ensure you are happy with the selection. We can leave the defaults for the workshop
 - Select the 'Launch' button and either select an existing Key Pair or create a new one so you can log into the host
@@ -64,7 +66,6 @@ git clone https://github.com/herbertjkelly/MXNetDemoPre.git
 sudo pip3 install mxnet-cu80 --pre
 ```
 
-***Ensure you have repeated the above for both CPU and GPU environments***
 
 ## Validate the EC2 installation <a name="remotevalidate"></a>
 
@@ -92,3 +93,4 @@ jupyter notebook
 
 **Congratulations, you have just run your first MXnet code and your your EC2 environment is ready to go!**
 > Thanks to Steve Turner (https://github.com/spturner) for the original content.
+> Big thanks to Sunil Mallya (https://github.com/sunilmallya) for the original MXNet tutorial on Twitch.
