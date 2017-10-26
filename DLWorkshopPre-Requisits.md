@@ -83,7 +83,7 @@ jupyter notebook
 
 - Navigate to the `mxnet_examples/` directory:
 - Open the `ndarray.ipynb` notebook
-![Jupyter Notebook Chapter 1 - NDArray](./images/Screen3 "Jupyter Notebook Chapter 1 - NDArray")
+![Jupyter Notebook Chapter 1 - NDArray](./images/Screen3.png "Jupyter Notebook Chapter 1 - NDArray")
 
 - Run the first two blocks of code by clicking on the cells and pressing 'Shift+Enter' on each. You should see the following output:
 ![Jupyter Notebook Chapter 1 - NDArray Code](./images/jupyterbrowserndarrycode.jpg "Jupyter Notebook Chapter 1 - NDArray Code")
