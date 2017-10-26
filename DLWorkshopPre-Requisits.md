@@ -57,7 +57,7 @@ cd ~/src/mxnet
 git clone https://github.com/herbertjkelly/MXNetDemoPre.git
 ```
 
-##### Original ndarray content found here 'https://github.com/zackchase/mxnet-the-straight-dope.git'
+> If you want to have a look at all the examples the Original ndarray content can be found here 'https://github.com/zackchase/mxnet-the-straight-dope.git'
 
 **Step 3:** GPU-only - install CUDA 8.0 support for MXNet.
 ```
@@ -91,4 +91,4 @@ jupyter notebook
 ![Jupyter Notebook Chapter 1 - NDArray Code](./images/jupyterbrowserndarrycode.jpg "Jupyter Notebook Chapter 1 - NDArray Code")
 
 **Congratulations, you have just run your first MXnet code and your your EC2 environment is ready to go!**
-##### Thanks to Steve Turner (https://github.com/spturner) for the original content.
+> Thanks to Steve Turner (https://github.com/spturner) for the original content.
