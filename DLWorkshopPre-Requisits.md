@@ -65,28 +65,25 @@ git clone https://github.com/herbertjkelly/MXNetDemoPre.git
 ```
 sudo pip3 install mxnet-cu80 --pre
 ```
+ This might take a while and should return with something similar to ``` Successfully installed mxnet-cu80-0.12.0b20171026 ```
 
 
 ## Validate the EC2 installation <a name="remotevalidate"></a>
 
 1. Log on via SSH to the instance (see Step 2.2 above) and start the Jupyter Notebook server (there will be a pause the first time this is run.)
 ```
+cd ~/src/mxnet/MXNetDemoPre
 jupyter notebook
 ```
 
 2. Copy/Paste the URL shown in your terminal into your browser to access the notebook.
-![Jupyter Notebook directory](./images/jupyterbrowserDLAMI.jpg "Jupyter Notebook directory")
+![Jupyter Notebook directory](./images/Screen1.png "Jupyter Notebook directory")
 
-3. Ensure you are using the Python 3 Kernel.
-![Jupyter Notebook change kernel](./images/jupyterbrowserchangekernel.jpg "Jupyter Notebook change kernel")
-
-4. Verify MXNet is installed and working as expected:
+3. Verify MXNet is installed and working as expected:
 
 - Navigate to the `mxnet_examples/` directory:
-![Jupyter Notebook Chapter 1](./images/jupyterbrowserchap1.jpg "Jupyter Notebook Chapter 1")
-
 - Open the `ndarray.ipynb` notebook
-![Jupyter Notebook Chapter 1 - NDArray](./images/jupyterbrowserndarry.jpg "Jupyter Notebook Chapter 1 - NDArray")
+![Jupyter Notebook Chapter 1 - NDArray](./images/Screen3 "Jupyter Notebook Chapter 1 - NDArray")
 
 - Run the first two blocks of code by clicking on the cells and pressing 'Shift+Enter' on each. You should see the following output:
 ![Jupyter Notebook Chapter 1 - NDArray Code](./images/jupyterbrowserndarrycode.jpg "Jupyter Notebook Chapter 1 - NDArray Code")
